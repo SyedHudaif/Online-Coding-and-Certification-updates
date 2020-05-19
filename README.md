@@ -1,1 +1,1 @@
-<h3>Online Coding and Certification Updates</h3>
+<h3>Online Coding Updates</h3>
