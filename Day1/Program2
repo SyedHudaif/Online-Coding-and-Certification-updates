@@ -9,7 +9,7 @@
     Message per cycle
     No of cycles*/
     
-    class OddThread extends Thread
+class OddThread extends Thread
 {
   int limit;
   sharedPrinter printer;
