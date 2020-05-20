@@ -1,0 +1,17 @@
+Python Program to Exchange the Values of Two Numbers using ^ (exclusive or operator)
+
+Program:
+
+x=int(input("x= "))
+y=int(input("y= "))
+print ("Before Swapping: x = ", x, " y =", y)
+x = x ^ y;
+y = x ^ y;
+x = x ^ y;
+print ("After Swapping: x = ", x, " y =", y)
+
+Output:
+x= 25
+y= 75
+Before Swapping: x =  25  y = 75
+After Swapping: x =  75  y = 25
