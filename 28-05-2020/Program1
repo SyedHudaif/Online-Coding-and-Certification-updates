@@ -1,0 +1,24 @@
+#Python program to print the greatest #number in a list
+#Note: No usage of sort()
+
+
+a = []
+n = int(input("Enter the size of the list\n"))
+print("Enter the elements")
+for i in range(n):
+  x = int(input())
+  a.append(x)
+print("The greatest number in the list is = ", max(a))
+
+
+Output:
+
+Enter the size of the list
+5
+Enter the elements
+67
+89
+5
+4
+0
+The greatest number in the list is =  89
