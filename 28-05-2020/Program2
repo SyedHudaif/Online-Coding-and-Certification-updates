@@ -1,7 +1,5 @@
 #Python program to find digital root of a #number
 
-
-n = int(input("Enter the digit\n"))
 def digital_root(n): 
     m  = len(str(n))
     s=0 
@@ -11,7 +9,7 @@ def digital_root(n):
     print(s)
     if(len(str(s))>1):
         return(digital_root(s))
-    
+n = int(input("Enter the digit\n"))   
 print(digital_root(n))
 
     
