@@ -16,8 +16,8 @@ upp(s)
 
 
 Output:
-Enter the string : Corona Virus 
-The output string is :  CORONA VIRUS
+Enter the string : CoRona
+The output string is :  CORONA
 
 Enter the string : python
 The output string is : python 
