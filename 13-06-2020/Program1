@@ -1,0 +1,11 @@
+# Python Program to Take in a String and Replace Every Blank Space with Hyphen
+
+string=str(input("Enter the string:"))
+string=string.replace(' ','-')
+print("After Modification:")
+print(string)
+
+output:
+Enter the string:Corona is a deadly virus                                                                          
+After Modification:                                                                                                
+Corona-is-a-deadly-virus
